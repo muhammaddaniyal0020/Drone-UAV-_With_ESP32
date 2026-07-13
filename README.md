@@ -53,7 +53,7 @@ This project includes a beautifully designed, embedded **Ground Control Station 
 
 ## System Architecture
 
-![System Architecture Placeholder](https://via.placeholder.com/800x400/07080f/00e5d4?text=Architecture+Diagram:+ESP32-S3+%7C+FreeRTOS+%7C+I2C+Sensors+%7C+LEDC+ESC)
+![System Architecture Placeholder](./images/architecure_diagram.png)
 
 *Above: High-level overview of the hardware and software subsystems.*
 
@@ -111,7 +111,7 @@ GND              --> All ESC GND (Must share common ground)
 ```
       FRONT
 M4(FL,CCW) --- M1(FR,CW)
-     \         /
+     \\         /
 M3(RL,CW) --- M2(RR,CCW)
       REAR
 ```
@@ -155,6 +155,8 @@ Install via Library Manager or Download ZIP:
 ---
 
 ## Dashboard Documentation
+
+![GCS Dashboard Screenshot](https://via.placeholder.com/1000x500/07080f/00e5d4?text=Ground+Control+Station+UI+Screenshot)
 
 Navigate to `http://192.168.4.1` on any browser connected to the drone's WiFi network.
 

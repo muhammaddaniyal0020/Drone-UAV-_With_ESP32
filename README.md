@@ -53,7 +53,7 @@ This project includes a beautifully designed, embedded **Ground Control Station 
 
 ## System Architecture
 
-![System Architecture Placeholder](./images/architecure_diagram.png)
+<img src="./images/architecture_diagram.png" alt="System Architecture Placeholder" />
 
 *Above: High-level overview of the hardware and software subsystems.*
 
@@ -156,7 +156,7 @@ Install via Library Manager or Download ZIP:
 
 ## Dashboard Documentation
 
-![GCS Dashboard Screenshot](https://via.placeholder.com/1000x500/07080f/00e5d4?text=Ground+Control+Station+UI+Screenshot)
+<img src="./images/UI_Screenshot.png" alt="GCS Dashboard Screenshot" />
 
 Navigate to `http://192.168.4.1` on any browser connected to the drone's WiFi network.
 
